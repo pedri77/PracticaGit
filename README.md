@@ -13,8 +13,9 @@ No, ya estabamos en la rama que queríamos absorber
 Si, hay conflicto con las lineas de los archivos a fusionar
 # El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 No, no hay duplicidad en las lineas que se fusionan.
-# ¿Qué comando o comandos utilizaste en el paso 25?  $ git log graph
-El merge del paso 26, ¿Podría ser fast forward? si, 
+# ¿Qué comando o comandos utilizaste en el paso 25? 
+`$ git log graph`
+# El merge del paso 26, ¿Podría ser fast forward? si, 
 # ¿Por qué? 
 # ¿Qué comando o comandos utilizaste en el paso 27? 
 `$ git reflog` y `$git reset (hash)`

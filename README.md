@@ -29,9 +29,11 @@ No, no hay duplicidad en las lineas que se fusionan.
 `$ git log graph`
 
 #### El merge del paso 26, ¿Podría ser fast forward? 
-Si, 
+Si.
 
 #### ¿Por qué? 
+
+Puesto que sigue siendo una lista de commits y no perdemos acceso a los commits anteriores, igual que en el paso 21. Solo avanzaria el puntero master al commit donde esta el puntero title.
 
 #### ¿Qué comando o comandos utilizaste en el paso 27? 
 `$ git reflog` 

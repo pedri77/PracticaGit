@@ -6,7 +6,8 @@
 `$ git reset --hard HEAD~1`
 
 #### ¿Por qué? 
-Deshacemos los cambios como dice la pregunta y colocamos el puntero HEAD donde nos interesa
+Deshacemos los cambios como dice la pregunta y colocamos el puntero HEAD donde nos interesa. 
+La acción que realiza es retroceder al commit anterior y modificar el working copy.
 
 #### ¿Qué comando o comandos utilizaste en el paso 12? 
 `$ git reset --hard HEAD~1`
@@ -14,10 +15,11 @@ Deshacemos los cambios como dice la pregunta y colocamos el puntero HEAD donde n
 `$ git reset hash` 
 
 #### ¿Por qué? 
-Volvemos al punto de partida, miramos el hash del cmmit al que queremos llegar y con git reset regresamos a él.
+Volvemos al punto de partida, miramos el hash del commit al que queremos llegar y con git reset regresamos a él.
 
 #### El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? 
-No, ya estabamos en la rama que queríamos absorber
+No, ya estabamos en la rama que queríamos absorber.
+El resultado que nos arroja el comando es Already up to date
 
 #### El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? 
 Si, hay conflicto con las lineas de los archivos a fusionar
@@ -27,6 +29,7 @@ No, no hay duplicidad en las lineas que se fusionan.
 
 #### ¿Qué comando o comandos utilizaste en el paso 25? 
 `$ git log graph`
+Podemos añadir los comandos --decorate --pretty=online para que sea más explícito.
 
 #### El merge del paso 26, ¿Podría ser fast forward? 
 Si.
